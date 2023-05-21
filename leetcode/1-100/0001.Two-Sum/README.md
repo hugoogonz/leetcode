@@ -37,7 +37,9 @@ Output: [0,1]
 -109 <= target <= 109
 ```
 
-**Solution:**
+**Solutions:**
+
+Big O notation: O(n):
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -55,7 +57,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-Complejidad temporal de O(n^2):
+Big O notation: O(n^2):
 
 ```go
 func twoSum(nums []int, target int) []int {
